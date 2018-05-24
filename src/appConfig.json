@@ -1,0 +1,6 @@
+{
+    "jwtAuth":{
+        "secret":"rdmption090520180415",
+        "expiry":7200
+    }
+}

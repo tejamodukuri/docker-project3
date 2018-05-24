@@ -1,0 +1,30 @@
+{
+  "name": "redemption",
+  "version": "1.0.0",
+  "description": "redemption module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shiva",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "await": "^0.2.6",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "in-array": "^0.1.2",
+    "jsonwebtoken": "^8.2.1",
+    "moment": "^2.22.1",
+    "mongoose": "^5.0.17",
+    "mongoose-increment": "^2.0.0",
+    "morgan": "^1.9.0",
+    "node-datetime": "^2.0.6",
+    "nodemon": "^1.17.4",
+    "randomatic": "^3.0.0"
+  }
+}

@@ -1,0 +1,25 @@
+version: '2.0'
+
+services:
+
+ redemption: 
+  build: .
+  environment:
+  - mongodb://mongo:27017/redemption
+  ports:
+  - "7080:7080"
+  depends_on:
+  - mongo
+
+ mongo: 
+  image: mongo:latest
+  environment:
+  - MONGO_DATA_DIR=/data/db
+  - MONGO_LOG_DIR=/dev/null
+  volumes:
+  - redemption_data:/data/db
+  ports:
+  - "27017:27017"
+  
+volumes:
+  redemption_data:
